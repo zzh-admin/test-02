@@ -18,7 +18,6 @@ mybatis:
   type-aliases-package: com.springcloud.entity
   configuration:
     map-underscore-to-camel-case: true
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     
 pagehelper:
   helper-dialect: mysql #设置数据库
